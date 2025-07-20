@@ -23,7 +23,7 @@ Styling: CSS
 📦 Installation
 Clone the repository:
 
-git clone https://github.com/Akash504-ai/your-repo-name.git
+git clone https://github.com/Akash504-ai/AI-Image-Generation-App
 cd your-repo-name
 
 
