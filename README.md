@@ -1,12 +1,61 @@
-# React + Vite
+🧠 AI Image Generator
+A simple AI-powered image generator built with React that uses OpenAI's DALL·E API to create images from natural language prompts.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---screenshot
+<img width="599" height="565" alt="image" src="https://github.com/user-attachments/assets/bb0c0f04-a4a3-4bd2-a5ee-6678a1594fab" />
 
-Currently, two official plugins are available:
+🚀 Features
+Generate AI images using text prompts
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Real-time API request handling
 
-## Expanding the ESLint configuration
+Clean, modern UI using basic React and CSS
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Error handling and input validation
+
+🛠️ Tech Stack
+Frontend: React
+
+API: OpenAI (DALL·E Image Generation API)
+
+Styling: CSS
+
+📦 Installation
+Clone the repository:
+
+git clone https://github.com/Akash504-ai/your-repo-name.git
+cd your-repo-name
+
+
+Install dependencies:
+npm install
+
+Create a .env file and add your OpenAI API key:
+VITE_OPENAI_API_KEY=your_openai_api_key
+
+Run the app:
+npm run dev
+
+ Usage
+Type a prompt in the input box (e.g., "A futuristic city on Mars").
+
+Click the Generate button.
+
+View your AI-generated image below.
+
+⚠️ Important
+Do not expose your OpenAI API key in public repositories!
+Use environment variables or secure backend handling to hide sensitive credentials.
+
+📁 Folder Structure
+📦ai-image-generator
+ ┣ 📂assets
+ ┃ ┗ image.webp
+ ┣ 📄App.jsx
+ ┣ 📄App.css
+ ┣ 📄main.jsx
+ ┣ 📄index.html
+ ┗ 📄README.md
+
+🧑‍💻 Author
+Akash Santra
